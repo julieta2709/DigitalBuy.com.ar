@@ -6,6 +6,8 @@
 
 body {
   background-color: #a19e9e;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 ul {
@@ -15,10 +17,101 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  margin: 10px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161616;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(236, 130, 19);
+  font-weight: 600;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  background-image: linear-gradient(to bottom, rgb(236, 130, 19), #3700ff);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.card2 {
+  display: flex;
+  width: 190px;
+  height: 254px;
+  background-color: #000000;
+  border-radius: 10px;
+  transition: all 0.2s;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.card-logo {
+  padding: 1rem;
+  width: 190px;
+  height: 254px;
+}
+
+.card-logoLQ {
+  width: 100%;
+  padding: 1rem;
 }
 
 .fa-brands {
-  color: #22a022;
-  font-size: 3rem;
-  font-weight: bold;
+  background-color: #25d366;
+  color: white;
+  font-size: 5rem;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  background-color: #12a50b;
+  animation: bounce_613 0.4s linear;
+}
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
 }
