@@ -238,7 +238,7 @@ h5 {
   .card-container {
     flex-wrap: no-wrap;
     justify-content: center;
-    margin-top: 30px;
+    margin-left: 10px;
   }
   .card {
     margin-right: 20px;
