@@ -73,16 +73,16 @@ h5 {
 .card-title {
   display: flex;
 }
-.contacto-container {
+/* .contacto-container {
   border-style: dashed;
   border-color: rgb(236, 130, 19);
   border-width: 2px;
   border-radius: 15px;
-}
+} */
 .card-title {
   flex-direction: column;
-  border-right-color: rgb(236, 130, 19);
-  border-right-style: dashed;
+/*   border-right-color: rgb(236, 130, 19);
+  border-right-style: dashed; */
 }
 .catalogo {
   border-bottom: rgba(255, 255, 255, 0.36);
